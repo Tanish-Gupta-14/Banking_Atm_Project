@@ -1,8 +1,11 @@
+# For running copy the code and run it on idle or any code studios.
+
 import tkinter as tk
 
 import pymysql
 
-
+# First create the database of any name like 'atm' and set the appropriate password.
+# if you don't create the mysql database you surely will get an error - Tanish(owner).
 con=pymysql.connect(host='localhost', \
                 user='root', password=' ', database='atm')
 c=con.cursor()
